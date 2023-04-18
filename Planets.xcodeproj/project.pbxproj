@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		F368BABC29EEB91800D42A0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368BABB29EEB91800D42A0B /* AppDelegate.swift */; };
 		F368BABE29EEB91800D42A0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368BABD29EEB91800D42A0B /* SceneDelegate.swift */; };
-		F368BAC029EEB91800D42A0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368BABF29EEB91800D42A0B /* ViewController.swift */; };
 		F368BAC329EEB91800D42A0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F368BAC129EEB91800D42A0B /* Main.storyboard */; };
 		F368BAC529EEB91D00D42A0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F368BAC429EEB91D00D42A0B /* Assets.xcassets */; };
 		F368BAC829EEB91D00D42A0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F368BAC629EEB91D00D42A0B /* LaunchScreen.storyboard */; };
 		F368BAD329EEB91E00D42A0B /* PlanetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368BAD229EEB91E00D42A0B /* PlanetsTests.swift */; };
 		F368BADD29EEB91E00D42A0B /* PlanetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368BADC29EEB91E00D42A0B /* PlanetsUITests.swift */; };
 		F368BADF29EEB91E00D42A0B /* PlanetsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368BADE29EEB91E00D42A0B /* PlanetsUITestsLaunchTests.swift */; };
+		F368BAF629EEBA5A00D42A0B /* HomeScreenVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368BAF529EEBA5A00D42A0B /* HomeScreenVM.swift */; };
+		F368BAF929EEBA9A00D42A0B /* HomeScreenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368BAF829EEBA9A00D42A0B /* HomeScreenTableViewController.swift */; };
+		F368BAFC29EEBB7C00D42A0B /* Planets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368BAFB29EEBB7C00D42A0B /* Planets.swift */; };
+		F368BAFF29EEBFD300D42A0B /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = F368BAFE29EEBFD300D42A0B /* Networking */; };
+		F368BB0229EEC8EF00D42A0B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368BB0129EEC8EF00D42A0B /* Constant.swift */; };
+		F368BB0529EEDD7500D42A0B /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368BB0429EEDD7500D42A0B /* HomeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,6 @@
 		F368BAB829EEB91800D42A0B /* Planets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F368BABB29EEB91800D42A0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F368BABD29EEB91800D42A0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F368BABF29EEB91800D42A0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F368BAC229EEB91800D42A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F368BAC429EEB91D00D42A0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F368BAC729EEB91D00D42A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,11 @@
 		F368BAD829EEB91E00D42A0B /* PlanetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F368BADC29EEB91E00D42A0B /* PlanetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsUITests.swift; sourceTree = "<group>"; };
 		F368BADE29EEB91E00D42A0B /* PlanetsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F368BAF529EEBA5A00D42A0B /* HomeScreenVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenVM.swift; sourceTree = "<group>"; };
+		F368BAF829EEBA9A00D42A0B /* HomeScreenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenTableViewController.swift; sourceTree = "<group>"; };
+		F368BAFB29EEBB7C00D42A0B /* Planets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planets.swift; sourceTree = "<group>"; };
+		F368BB0129EEC8EF00D42A0B /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		F368BB0429EEDD7500D42A0B /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F368BAFF29EEBFD300D42A0B /* Networking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,9 +109,12 @@
 		F368BABA29EEB91800D42A0B /* Planets */ = {
 			isa = PBXGroup;
 			children = (
+				F368BB0029EEC8D800D42A0B /* Constant */,
+				F368BAFA29EEBB6700D42A0B /* Modal */,
+				F368BAF429EEBA4100D42A0B /* ViewModal */,
+				F368BAF729EEBA7500D42A0B /* Views */,
 				F368BABB29EEB91800D42A0B /* AppDelegate.swift */,
 				F368BABD29EEB91800D42A0B /* SceneDelegate.swift */,
-				F368BABF29EEB91800D42A0B /* ViewController.swift */,
 				F368BAC129EEB91800D42A0B /* Main.storyboard */,
 				F368BAC429EEB91D00D42A0B /* Assets.xcassets */,
 				F368BAC629EEB91D00D42A0B /* LaunchScreen.storyboard */,
@@ -127,6 +140,47 @@
 			path = PlanetsUITests;
 			sourceTree = "<group>";
 		};
+		F368BAF429EEBA4100D42A0B /* ViewModal */ = {
+			isa = PBXGroup;
+			children = (
+				F368BAF529EEBA5A00D42A0B /* HomeScreenVM.swift */,
+			);
+			path = ViewModal;
+			sourceTree = "<group>";
+		};
+		F368BAF729EEBA7500D42A0B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F368BB0329EEDD5600D42A0B /* Cell */,
+				F368BAF829EEBA9A00D42A0B /* HomeScreenTableViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F368BAFA29EEBB6700D42A0B /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				F368BAFB29EEBB7C00D42A0B /* Planets.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		F368BB0029EEC8D800D42A0B /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				F368BB0129EEC8EF00D42A0B /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		F368BB0329EEDD5600D42A0B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F368BB0429EEDD7500D42A0B /* HomeTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +197,9 @@
 			dependencies = (
 			);
 			name = Planets;
+			packageProductDependencies = (
+				F368BAFE29EEBFD300D42A0B /* Networking */,
+			);
 			productName = Planets;
 			productReference = F368BAB829EEB91800D42A0B /* Planets.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +272,9 @@
 				Base,
 			);
 			mainGroup = F368BAAF29EEB91800D42A0B;
+			packageReferences = (
+				F368BAFD29EEBFD300D42A0B /* XCRemoteSwiftPackageReference "Networking" */,
+			);
 			productRefGroup = F368BAB929EEB91800D42A0B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,8 +318,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F368BAC029EEB91800D42A0B /* ViewController.swift in Sources */,
+				F368BB0229EEC8EF00D42A0B /* Constant.swift in Sources */,
+				F368BAFC29EEBB7C00D42A0B /* Planets.swift in Sources */,
+				F368BAF629EEBA5A00D42A0B /* HomeScreenVM.swift in Sources */,
+				F368BAF929EEBA9A00D42A0B /* HomeScreenTableViewController.swift in Sources */,
 				F368BABC29EEB91800D42A0B /* AppDelegate.swift in Sources */,
+				F368BB0529EEDD7500D42A0B /* HomeTableViewCell.swift in Sources */,
 				F368BABE29EEB91800D42A0B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,7 +430,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +484,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -602,6 +666,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F368BAFD29EEBFD300D42A0B /* XCRemoteSwiftPackageReference "Networking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scorpionsPD/Networking";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F368BAFE29EEBFD300D42A0B /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F368BAFD29EEBFD300D42A0B /* XCRemoteSwiftPackageReference "Networking" */;
+			productName = Networking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F368BAB029EEB91800D42A0B /* Project object */;
 }
