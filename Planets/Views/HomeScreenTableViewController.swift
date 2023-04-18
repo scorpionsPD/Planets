@@ -11,7 +11,7 @@ class HomeScreenTableViewController: UITableViewController {
 let vm = HomeScreenVM()
     override func viewDidLoad() {
         super.viewDidLoad()
-        vm.getHomeScreenData()
+        vm.getHomeScreenData() // fetching list of planets
         vm.reloadList = {
             DispatchQueue.main.async {
                 self.tableView.reloadData()
