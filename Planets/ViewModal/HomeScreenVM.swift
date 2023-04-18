@@ -9,7 +9,7 @@ import Foundation
 import Networking
 
 class HomeScreenVM {
-    private(set) var planets: Planets?{
+    var planets: Planets?{
         didSet{
             guard let data = planets?.results else {
                 fatalError("could not able to load planets")

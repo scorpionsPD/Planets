@@ -24,6 +24,7 @@
 		F368BB0B29EEF21100D42A0B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368BB0A29EEF21100D42A0B /* Utils.swift */; };
 		F368BB0E29EEF5A200D42A0B /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368BB0D29EEF5A200D42A0B /* CustomAlert.swift */; };
 		F368BB1129EEF63500D42A0B /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368BB1029EEF63500D42A0B /* Extentions.swift */; };
+		F368BB1329EF09B000D42A0B /* HomeScreenVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368BB1229EF09B000D42A0B /* HomeScreenVMTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		F368BB0A29EEF21100D42A0B /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		F368BB0D29EEF5A200D42A0B /* CustomAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
 		F368BB1029EEF63500D42A0B /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		F368BB1229EF09B000D42A0B /* HomeScreenVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenVMTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				F368BAD229EEB91E00D42A0B /* PlanetsTests.swift */,
+				F368BB1229EF09B000D42A0B /* HomeScreenVMTests.swift */,
 			);
 			path = PlanetsTests;
 			sourceTree = "<group>";
@@ -369,6 +372,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F368BAD329EEB91E00D42A0B /* PlanetsTests.swift in Sources */,
+				F368BB1329EF09B000D42A0B /* HomeScreenVMTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
