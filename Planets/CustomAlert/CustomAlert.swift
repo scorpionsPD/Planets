@@ -54,6 +54,8 @@ struct CustomAlert {
         case .reachability:
             showNerworkErrorAlert()
             break
+        case .defaultError:
+            showParseUrlErrorAlert()
         }
     }
 }
